@@ -78,4 +78,4 @@ exports.postDeleteProducts = (req, res, next) => {
   Product.deletebyId(ProdId);
   console.log('Deleted')
   res.redirect('/admin/products');
-}; 
+};
